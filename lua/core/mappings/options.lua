@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 opt.number = true
-opt.relativenumber = true
+opt.relativenumber = false
 
 opt.tabstop = 2
 opt.shiftwidth = 2
@@ -22,11 +22,9 @@ opt.termguicolors = true
 opt.signcolumn = "yes"
 opt.background = "dark"
 opt.showmatch = true
-opt.colorcolumn = "80"
-
+opt.colorcolumn = "120"
 
 opt.backspace = "indent,eol,start"
-
 
 opt.clipboard:append("unnamedplus")
 

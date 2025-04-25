@@ -1,3 +1,3 @@
-require('core.options')
-require('core.mappings')
-require('core.autocmds')
+require('core.mappings.autocmds')
+require('core.mappings.basic')
+require('core.mappings.options')
