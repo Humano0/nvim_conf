@@ -69,7 +69,6 @@ local plugins = packer.startup(function(use)
   }
   use 'lewis6991/gitsigns.nvim'
   use 'numToStr/Comment.nvim'
-  use 'lukas-reineke/indent-blankline.nvim'
 
   if PACKER_BOOTSTRAP then
     packer.sync()
@@ -87,7 +86,6 @@ local function load_configs()
   require("plugins.configs.autopairs")
   require("plugins.configs.gitsigns")
   require("plugins.configs.comment")
-  require("plugins.configs.indent-blankline")
 end
 
 local config_status_ok, _ = pcall(load_configs)
